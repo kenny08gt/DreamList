@@ -232,6 +232,9 @@
                                 <state key="normal" title="Save Item">
                                     <color key="titleColor" red="0.85391835059999999" green="0.85391835059999999" blue="0.85391835059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="savePress:" destination="RAa-bd-xHn" eventType="touchUpInside" id="5zr-fh-SnD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -261,6 +264,9 @@
                     <navigationItem key="navigationItem" title="Add/Edit" id="6M1-s0-uxN">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="ELz-CH-pKP">
                             <color key="tintColor" red="1" green="0.3014745512" blue="0.31526262259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="deletePress:" destination="RAa-bd-xHn" id="Hx4-KQ-YBK"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
