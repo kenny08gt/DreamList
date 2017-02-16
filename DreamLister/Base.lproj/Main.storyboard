@@ -176,6 +176,9 @@
                                     <constraint firstAttribute="height" constant="100" id="wtf-fT-uL7"/>
                                     <constraint firstAttribute="width" constant="100" id="xeg-jq-jQS"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="addImage:" destination="RAa-bd-xHn" eventType="touchUpInside" id="ltY-Fp-rdd"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nH6-Wj-e0S">
                                 <rect key="frame" x="124" y="72" width="188" height="43"/>
@@ -273,6 +276,7 @@
                         <outlet property="detailsField" destination="aaT-as-Z0g" id="NYc-Dd-bS3"/>
                         <outlet property="priceField" destination="ib2-66-5hK" id="FeS-Or-Fsz"/>
                         <outlet property="storePicker" destination="0sD-8K-BgQ" id="FMI-Fm-Ezf"/>
+                        <outlet property="thumbImage" destination="F59-fg-leI" id="uwV-ni-fDA"/>
                         <outlet property="titleField" destination="nH6-Wj-e0S" id="tDw-z3-GWM"/>
                     </connections>
                 </viewController>
